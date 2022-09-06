@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+nav{
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    /* margin-bottom: 20px; */
+}
+nav ul{
+    margin-top: -25px;
+
+}
+nav ul li{
+    float: right;
+    display: inline;
+}
+nav ul li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #656565;
+
+}
+.subscribe{
+    padding: 10px 15px;
+    background-color: #EE7C0D;
+}
+p{
+    color: #656565;
+}
+.first-group{
+    width: 80%;
+    margin: auto;
+    height: 180px;
+    display: flex;
+}
+.engagement-tweets{
+    width: 100%;
+    display: flex;
+}
+.image-wrapper{
+    width: 35%;
+}
+.image-wrapper img{
+    width: 80%;
+    height: 100%;
+}
+.blurb-wrapper{
+    width: 60%;
+}
+.blurb-wrapper h2, p{
+    margin-bottom: 10px;
+    /* letter-spacing: 1px;
+    word-spacing: 2px; */
+}
+.tweet-wrap{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+.tweet-txt{
+    margin-left: 10px;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.tips-div{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.tips-div h2, p{
+    margin-top: 20px;
+}
+.organic-tips,
+.business-tips,
+.branding-tips{
+    order: 1;
+    width: 30%;
+}
+.tips-div img{
+    width: 80%;
+}
+.tweet-wrap p{
+    margin-top: 2px;
+}
+#sman, #lman, #nman, #anman{
+    width: 30px;
+    height: 30px;
+}
+
+.last-bar{
+    display: flex;
+}
+.copyright{
+    margin-left: 600px;
+}
+#logo{
+    margin-left: 110px;
+}
+
+
+@media (max-width: 1000px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    nav ul li{
+        display: none;
+    }
+    .logo{
+        font-size: 88px;
+    }
+    .first-group{
+        width: 90%;
+        margin: auto;
+        display: block;
+        /* height: 100vh; */
+    }  
+    .engagement-tweets{
+        display: block;
+        width: 100vw;
+        margin: auto;
+    } 
+    .image-wrapper{
+        width: 100%;
+    }
+    .image-wrapper img{
+        height: 60%;
+        width: 50%;
+    }
+    .blurb-wrapper{
+        width: 50%;
+    }
+    .tips-div{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+    .tips-div h2, p{
+        margin-top: 10px;
+    }
+    .organic-tips,
+    .business-tips,
+    .branding-tips{
+        width: 100%;
+        margin-top: 130px;
+    }
+    .tips-div img{
+        width: 100%;
+        height: 100px;
+    }
+    .last-bar{
+        display: flex;
+    }
+    .copyright{
+        margin-left: 30px;
+        font-size: small;
+    }
+    #logo{
+        margin-left: 10px;
+    }
+}
